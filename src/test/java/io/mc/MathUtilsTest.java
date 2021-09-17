@@ -38,6 +38,7 @@ class MathUtilsTest {
 		//int actual = mathutils.add(1,1);
 		//assertEquals(expected,actual,"add method failed");
 		assertEquals(expected,mathutils.add(1,1),"add method failed");
+		assertEquals(-1,mathutils.add(-2,1),"should return negative result");
 	}
 	
 	@Test
