@@ -1,4 +1,3 @@
-abcd
 
 # Junit-5
 
