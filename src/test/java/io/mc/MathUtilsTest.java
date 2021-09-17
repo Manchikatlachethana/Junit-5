@@ -35,8 +35,9 @@ class MathUtilsTest {
 	@DisplayName("Testing add method")
 	void testAdd() {
 		int expected = 2;
-		int actual = mathutils.add(1,1);
-		assertEquals(expected,actual,"add method failed");	
+		//int actual = mathutils.add(1,1);
+		//assertEquals(expected,actual,"add method failed");
+		assertEquals(expected,mathutils.add(1,1),"add method failed");
 	}
 	
 	@Test
